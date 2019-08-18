@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Nouvoitou Ultimate Frisbee
 
-You can use the [editor on GitHub](https://github.com/nouvoitou-ultimate/home/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Ultimate Frisbee pour les 12-17 ans, filles et garçons, à Nouvoitou.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Ultimate
 
-### Markdown
+L'Ultimate est un sport collectif sans contact se jouant avec un disque en plastique. Les points sont marqués en faisant une passe à un coéquipier dans l'en-but de l'adversaire. C'est un sport auto-arbitré.
+
+### Quand et où?
+
+Le mardi soir de 18h à 20h au gymnase de Nouvoitou, à partir du mois de février 2020 (ou dès que le gymnase sera disponible).
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Contact
 
-# Header 1
-## Header 2
-### Header 3
+Nous serons présents au forum des associations le 07 septembre 2019 (Salle Le Bocage) entre 08:30 et 12:30.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nouvoitou-ultimate/home/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Pour plus de renseignements: ulti.nouvoitou at gmail.com.
