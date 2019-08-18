@@ -18,4 +18,4 @@ Le mardi soir de 18h à 20h au gymnase de Nouvoitou, à partir du mois de févri
 
 Nous serons présents au forum des associations le 07 septembre 2019 (Salle Le Bocage) entre 08:30 et 12:30.
 
-Pour plus de renseignements: ulti.nouvoitou at gmail.com.
+Pour plus de renseignements: ulti.nouvoitou@gmail.com.
