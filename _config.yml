@@ -1,4 +1,6 @@
 theme: jekyll-theme-cayman
 title: Nouvoitou Ultimate Frisbee
+image:
+  background: ultimate.png
 header:
   background-image: ultimate.png
