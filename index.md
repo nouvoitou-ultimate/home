@@ -4,7 +4,6 @@ Ultimate Frisbee pour les 12-17 ans, filles et garçons, à Nouvoitou.
 
 ### Ultimate
 
-Reference-style: 
 ![ultimate][ulti_picture]
 
 L'Ultimate est un sport collectif sans contact se jouant avec un disque.
