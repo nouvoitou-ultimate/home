@@ -4,3 +4,5 @@ image:
   background: 'images/ultimate.png'
 header:
   background-image: 'images/ultimate.png'
+plugins:
+  - jekyll-seo-tag
