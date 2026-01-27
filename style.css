@@ -109,10 +109,6 @@ p { margin: 0 0 12px; }
   margin-top: 18px;
 }
 
-@media (min-width: 860px) {
-  .grid { grid-template-columns: 1fr 1fr; }
-}
-
 .card {
   border: 1px solid var(--border);
   border-radius: var(--radius);
