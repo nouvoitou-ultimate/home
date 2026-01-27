@@ -4,11 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>JSN Ultimate Frisbee Nouvoitou</title>
-  <meta name="description" content="Séances découverte d’Ultimate Frisbee à Nouvoitou (JSN). Ouvert à tous, esprit loisir, apprentissage progressif. Inscription via Google Form." />
+  <meta name="description" content="Séances découverte d’Ultimate Frisbee à Nouvoitou (JSN) — hiver/printemps 2026. Ouvert à tous. Inscription via Google Form." />
 
-  <!-- Open Graph -->
   <meta property="og:title" content="JSN Ultimate Frisbee Nouvoitou" />
-  <meta property="og:description" content="Ouvert à tous · Loisir · Découverte · Inscription via Google Form" />
+  <meta property="og:description" content="Séances ponctuelles découverte (hiver/printemps 2026) — objectif entraînement régulier à la rentrée de septembre." />
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -17,6 +16,7 @@
 <header class="site-header">
   <div class="container">
     <h1>JSN Ultimate Frisbee Nouvoitou</h1>
+
     <p class="lead">
       Hiver / printemps 2026 : séances ponctuelles pour découvrir l’Ultimate Frisbee au gymnase de Nouvoitou,
       avec l’objectif de proposer un entraînement régulier à la rentrée de septembre.
@@ -32,119 +32,120 @@
     </div>
 
     <p class="hint">
-      ⚠️ Inscription demandée pour évaluer le nombre de personnes (et limiter si besoin).
+      Inscription demandée pour évaluer le nombre de personnes (et limiter si besoin).
     </p>
+
+    <!-- Photos (optionnelles) -->
+    <div class="photo-row" aria-label="Photos d'illustration">
+      <figure class="photo">
+        <!-- Remplace par ton chemin -->
+        <img src="assets/photos/outdoor.jpg" alt="Ultimate en extérieur" loading="lazy" />
+        <figcaption>Outdoor</figcaption>
+      </figure>
+      <figure class="photo">
+        <!-- Remplace par ton chemin -->
+        <img src="assets/photos/indoor.jpg" alt="Ultimate en gymnase" loading="lazy" />
+        <figcaption>Indoor</figcaption>
+      </figure>
+    </div>
   </div>
 </header>
 
 <main class="container">
-  <section class="grid" id="infos">
+  <!-- 1) C'est quoi -->
+  <section class="stack" id="ultimate">
     <div class="card">
-      <h2>C’est quoi l’Ultimate ?</h2>
+      <h2>C’est quoi l’Ultimate Frisbee ?</h2>
       <p>
-        L’Ultimate Frisbee est un sport collectif mixte, sans contact, qui se joue avec un disque.
-        On marque en faisant une passe à un·e partenaire dans l’en-but adverse.
+        L’Ultimate Frisbee est un sport collectif <strong>sans contact</strong> qui se joue avec un disque.
+        On avance en se faisant des passes, et on marque en recevant le disque dans l’en-but adverse.
       </p>
       <p class="note">
-        Particularité : sport <strong>auto-arbitré</strong> (esprit du jeu). On fait attention aux autres,
-        on discute calmement, et on privilégie le bon esprit.
+        Particularité : c’est un sport <strong>auto-arbitré</strong> (esprit du jeu).
+        On fait attention aux autres, on discute calmement, et on privilégie le respect et la sécurité.
       </p>
-    </div>
-
-    <div class="card">
-      <h2>Quand ?</h2>
-      <ul>
-        <li><strong>Séances découverte</strong> : samedi après-midi ou dimanche (matin / après-midi).</li>
-        <li><strong>Créneau possible</strong> : vendredi soir (plutôt adultes / 14+).</li>
-        <li><strong>Période</strong> : hiver / printemps 2026.</li>
-      </ul>
-      <p class="muted">
-        Les dates précises seront annoncées selon les inscriptions et la dispo du gymnase.
-      </p>
-    </div>
-
-    <div class="card">
-      <h2>Où ?</h2>
-      <p><strong>Gymnase de Nouvoitou</strong></p>
-      <p class="muted">Adresse / plan : à compléter</p>
-    </div>
-
-    <div class="card">
-      <h2>Pour qui ?</h2>
-      <ul>
-        <li><strong>Ouvert à tous</strong> (enfants compris selon format).</li>
-        <li>Débutants bienvenus : on apprend les bases.</li>
-        <li>Groupes possibles : enfants / ados / adultes.</li>
-      </ul>
     </div>
   </section>
 
-  <hr />
+  <!-- 2) Pour qui -->
+  <section class="stack" id="pour-qui">
+    <div class="card">
+      <h2>Pour qui ?</h2>
+      <p>
+        <strong>Ouvert à tous</strong>, débutants bienvenus (et aussi les plus expérimentés).
+      </p>
+      <ul>
+        <li><strong>Week-end :</strong> séances plutôt <strong>familiales</strong> (adultes + enfants).</li>
+        <li><strong>Vendredi soir :</strong> séances plutôt <strong>adultes + jeunes</strong> (nés en <strong>2011 ou après</strong>).</li>
+      </ul>
+      <p class="muted">
+        L’idée : découvrir le sport progressivement et apprendre les bases (passes, déplacements, règles, esprit du jeu),
+        pas seulement faire des matchs.
+      </p>
+    </div>
+  </section>
 
-  <section class="grid" id="pratique">
+  <!-- 3) Quand -->
+  <section class="stack" id="quand">
+    <div class="card">
+      <h2>Quand ?</h2>
+      <p>Les séances découverte auront lieu selon les disponibilités du gymnase :</p>
+      <ul>
+        <li><strong>Week-end</strong> : samedi après-midi / dimanche matin ou après-midi (format familial)</li>
+        <li><strong>Vendredi soir</strong> : format adultes + jeunes (2011 ou après)</li>
+      </ul>
+      <p class="muted">
+        Les dates exactes seront communiquées aux personnes inscrites (et publiées ici).
+      </p>
+    </div>
+  </section>
+
+  <!-- 4) Où -->
+  <section class="stack" id="ou">
+    <div class="card">
+      <h2>Où ?</h2>
+      <p><strong>Gymnase de Nouvoitou</strong></p>
+      <p class="muted">
+        Adresse / plan : à compléter
+        <!-- Optionnel : lien maps -->
+        <!-- · <a href="https://maps.google.com/?q=..." target="_blank" rel="noopener">Voir sur Google Maps</a> -->
+      </p>
+    </div>
+  </section>
+
+  <!-- 5) Infos pratiques -->
+  <section class="stack" id="pratique">
     <div class="card">
       <h2>Infos pratiques</h2>
       <ul>
         <li><strong>Gratuit</strong> pour les séances découverte.</li>
-        <li><strong>Inscription obligatoire</strong>.</li>
+        <li><strong>Inscription demandée</strong> (pour dimensionner et éventuellement limiter).</li>
         <li><strong>Décharge</strong> à signer.</li>
-        <li>Tenue de sport, baskets propres, gourde.</li>
+        <li>Prévoir : tenue de sport, <strong>baskets propres</strong> (gymnase), <strong>gourde</strong>.</li>
       </ul>
-    </div>
-
-    <div class="card">
-      <h2>Inscription / intérêt</h2>
-      <p>
-        Quelques infos (âge, commune, niveau, dispos…) pour organiser au mieux.
-      </p>
-      <a class="btn primary" href="https://forms.gle/TON-LIEN" target="_blank" rel="noopener">
-        Remplir le Google Form
-      </a>
-      <p class="muted">
-        Même si tu n’es pas sûr·e → remplis-le, ça nous aide.
+      <p class="note small">
+        Esprit général : loisir, progressif, bienveillance, sécurité, “esprit ulti”.
       </p>
     </div>
   </section>
 
-  <hr />
-
-  <section id="videos" class="card">
-    <h2>Vidéos pour découvrir</h2>
-    <p class="muted">
-      En attendant de produire les nôtres, quelques vidéos publiques pour présenter le sport.
-    </p>
-
-    <div class="grid">
-      <iframe class="video"
-        src="https://www.youtube-nocookie.com/embed/ID_VIDEO_1"
-        title="Découvrir l'ultimate"
-        allowfullscreen></iframe>
-
-      <iframe class="video"
-        src="https://www.youtube-nocookie.com/embed/ID_VIDEO_2"
-        title="Esprit du jeu"
-        allowfullscreen></iframe>
-    </div>
-  </section>
-
-  <hr />
-
-  <section id="contact" class="grid">
+  <!-- 6) Inscriptions -->
+  <section class="stack" id="inscriptions">
     <div class="card">
-      <h2>Contact</h2>
+      <h2>Inscriptions</h2>
       <p>
+        Pour organiser au mieux, le formulaire demande quelques infos (âge, commune, expérience, disponibilités…).
+        Même si tu n’es pas sûr·e → remplis-le, ça nous aide à estimer la demande.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="https://forms.gle/TON-LIEN" target="_blank" rel="noopener">
+          Remplir le Google Form
+        </a>
+      </div>
+
+      <p class="muted small" style="margin-top:10px;">
         Contact : ulti.nouvoitou [at] gmail [dot] com
-      </p>
-      <p class="muted">Instagram / WhatsApp : à compléter</p>
-    </div>
-
-    <div class="card">
-      <h2>Objectif</h2>
-      <p>
-        Construire un groupe motivé → démarrer une section régulière en septembre.
-      </p>
-      <p class="note">
-        Ambiance <strong>loisir</strong> : apprendre, bouger, s’amuser, respecter l’esprit ulti.
       </p>
     </div>
   </section>
@@ -152,13 +153,14 @@
 
 <footer class="site-footer">
   <div class="container footer-links">
-    <span>© 2026 — Ultimate Nouvoitou / JSN</span>
-    <a href="#infos">Infos</a>
-    <a href="#pratique">Pratique</a>
-    <a href="#videos">Vidéos</a>
-    <a href="#contact">Contact</a>
+    <span>© 2026 — JSN Ultimate Nouvoitou</span>
+    <a href="#ultimate">Ultimate</a>
+    <a href="#pour-qui">Pour qui</a>
+    <a href="#quand">Quand</a>
+    <a href="#ou">Où</a>
+    <a href="#pratique">Infos</a>
+    <a href="#inscriptions">Inscriptions</a>
   </div>
 </footer>
 </body>
 </html>
-
