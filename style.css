@@ -40,13 +40,6 @@ a{ color: inherit; }
   padding-bottom: 20px;
 }
 
-.site-header .container{
-  background: rgba(255,255,255,0.70);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-}
-
 h1{
   margin: 0 0 10px;
   font-size: clamp(1.8rem, 3vw, 2.2rem);
