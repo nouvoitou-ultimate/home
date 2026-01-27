@@ -1,9 +1,0 @@
-theme: jekyll-theme-cayman
-title: Nouvoitou Ultimate Frisbee
-image:
-  background: 'images/ultimate.png'
-header:
-  background-image: 'images/ultimate.png'
-plugins:
-  - jekyll-seo-tag
-google_site_verification: RmlYQ3B0sR2Z6LJprDFD30mDvOw5i2dKD4avdne-8ZY
