@@ -176,14 +176,23 @@ li{ margin: 6px 0; }
   color: var(--muted);
 }
 
+.video-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
 .video-embed {
   position: relative;
-  aspect-ratio: 16 / 9;
   width: 100%;
-  max-width: 720px;
-  margin: 16px auto;
+  max-width: 800px;       /* ← clé : plus large */
+  aspect-ratio: 16 / 9;
+  margin: 12px auto 8px; /* centré */
   border-radius: var(--radius);
   overflow: hidden;
+  background: #000;
   box-shadow: var(--shadow);
 }
 
