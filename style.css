@@ -187,9 +187,9 @@ li{ margin: 6px 0; }
 .video-embed {
   position: relative;
   width: 100%;
-  max-width: 800px;       /* ← clé : plus large */
+  max-width: 800px;
   aspect-ratio: 16 / 9;
-  margin: 12px auto 8px; /* centré */
+  margin: 12px auto 8px;
   border-radius: var(--radius);
   overflow: hidden;
   background: #000;
