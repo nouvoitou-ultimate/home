@@ -231,3 +231,9 @@ li{ margin: 6px 0; }
   height: 100%;
   object-fit: cover;
 }
+
+.session-gallery img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
