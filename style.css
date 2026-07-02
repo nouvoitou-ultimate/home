@@ -126,9 +126,13 @@ p{ margin: 0 0 12px; }
 
 .photo img{
   width: 100%;
-  height: 220px;
+  height: 180px;
   object-fit: cover;
   display: block;
+}
+
+@media (min-width: 720px){
+  .photo img{ height: 220px; }
 }
 
 .photo figcaption{
